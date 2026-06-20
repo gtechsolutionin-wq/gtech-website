@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTECH Solution | Admin Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="admin-login">
+    
+    <header class="site-header">
+        <div class="container nav-wrap">
+            <a class="brand" href="index.html">
+                <img src="assets/logo.png" alt="GTECH Solution Logo">
+                <span class="sr-only">GTECH Solution</span>
+            </a>
+            <button class="menu-toggle" aria-label="Open menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav-menu">
+                <a class="nav-link" href="index.html">Home</a>
+<a class="nav-link" href="services.html">Services</a>
+<a class="nav-link" href="about.html">About</a>
+<a class="nav-link" href="portfolio.html">Portfolio</a>
+<a class="nav-link" href="faq.html">FAQ</a>
+<a class="nav-link" href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="page-hero">
+        <div class="container login-layout">
+            <div class="dark-surface reveal">
+                <p class="eyebrow">Admin access</p>
+                <h1>Login to manage <span>portfolio projects</span>.</h1>
+                <p>Only the admin dashboard can add or delete portfolio projects in this version. Visitors cannot add projects from the public page.</p>
+                <ul class="list">
+                    <li>Login required to manage projects</li>
+                    <li>Category-wise project upload</li>
+                    <li>Stored messages can also be viewed</li>
+                </ul>
+            </div>
+            <form class="login-card reveal" id="adminLoginForm">
+                <h2>Admin <span>Login</span></h2>
+                <div class="form-grid">
+                    <div class="full">
+                        <label for="admin-username">Username</label>
+                        <input id="admin-username" name="username" placeholder="Enter username" required>
+                    </div>
+                    <div class="full">
+                        <label for="admin-password">Password</label>
+                        <input id="admin-password" name="password" type="password" placeholder="Enter password" required>
+                    </div>
+                </div>
+                <button class="btn" type="submit">Login</button>
+                <p class="form-status" id="loginStatus"></p>
+                <p class="admin-note">Default login details are given in the README file. Change them later in script.js for better control.</p>
+            </form>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="container footer-grid footer-grid-clean">
+            <div>
+                <img class="footer-logo" src="assets/logo.png" alt="GTECH Solution">
+                <p>Professional web solutions, student projects, branding support and digital growth services.</p>
+                <div class="footer-social">
+                    <!-- Update your real links here -->
+                    <a class="social-btn" href="https://www.instagram.com/your_instagram_username" target="_blank" rel="noopener" aria-label="Instagram">
+                        <img src="assets/instagram.svg" alt="Instagram logo">
+                        <span>Instagram</span>
+                    </a>
+                    <a class="social-btn" href="https://www.linkedin.com/in/your_linkedin_username" target="_blank" rel="noopener" aria-label="LinkedIn">
+                        <img src="assets/linkedin.svg" alt="LinkedIn logo">
+                        <span>LinkedIn</span>
+                    </a>
+                    <a class="social-btn" href="https://mail.google.com/mail/?view=cm&fs=1&to=gtechsolution.in%40gmail.com&su=Website%20Enquiry&body=Hi%20GTECH%20Solution%2C%0A%0AI%20want%20to%20discuss%20a%20project.%0A%0AName%3A%0APhone%3A%0ARequirement%3A" target="_blank" rel="noopener" aria-label="Send email to GTECH Solution">
+                        <img src="assets/mail.svg" alt="Gmail logo">
+                        <span>Mail</span>
+                    </a>
+                    <a class="social-btn" href="https://www.fiverr.com/your_fiverr_username" target="_blank" rel="noopener" aria-label="Fiverr">
+                        <img src="assets/fiverr.svg" alt="Fiverr logo">
+                        <span>Fiverr</span>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <h4>Quick Links</h4>
+                <a href="index.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="about.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="faq.html">FAQ</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div>
+                <h4>Services</h4>
+                <a href="portfolio.html#web-design">Web Design</a>
+                <a href="portfolio.html#development">Frontend & Backend</a>
+                <a href="portfolio.html#portfolio-websites">Portfolio Websites</a>
+                <a href="portfolio.html#student-projects">Student Projects</a>
+                <a href="portfolio.html#digital-marketing">Digital Marketing</a>
+                <a href="portfolio.html#logo-design">Logo Design</a>
+            </div>
+            <div>
+                <h4>Contact</h4>
+                <a href="tel:+91915094597">+91 91509 4597</a>
+                <a href="mailto:gtechsolution.in@gmail.com">gtechsolution.in@gmail.com</a>
+                <a href="contact.html">Tamil Nadu, India</a>
+                <a href="admin-login.html">Admin Login</a>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <span>© 2026 GTECH Solution. All rights reserved.</span>
+            <span>Designed for digital growth</span>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
